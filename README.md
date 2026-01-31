@@ -6,6 +6,10 @@ A Streamlit application to parse, sort, and export lists of scholars from a CSV 
 
 This tool provides a web-based interface to process a CSV file containing scholar information. It automatically categorizes scholars into "Rizal," "Chancellor," and "Dean" listers, stores the data in a local SQLite database, and allows for both manual and automated batch exporting of the sorted lists.
 
+## Screenshot
+
+<img width="1657" height="961" alt="Screenshot" src="https://github.com/user-attachments/assets/85e9de63-a1ee-45a8-aded-779cdee37fb7" />
+
 ## Features
 
 - **CSV Parsing:** Ingests a CSV file and extracts scholar data.
