@@ -12,8 +12,8 @@ This tool provides a web-based interface to process a CSV file containing schola
 - **Automatic Categorization:** Sorts scholars into award types based on keywords found in the source file.
 - **Database Storage:** Saves processed data into a SQLite database for persistence and querying.
 - **Interactive UI:** A user-friendly interface built with Streamlit.
-- **Manual Filtering:** A "Single List Generator" to filter scholars by year level, course, and award type and download the results as a CSV.
-- **Batch Export:** An "Auto-Generator" that creates 48 individual CSV files for every combination of year, course, and award, then bundles them into a single downloadable ZIP file.
+- **Manual Filtering with Dynamic Naming:** A "Single List Generator" to filter scholars by year level, course, and award type. The exported CSV is automatically named based on the selected filters (e.g., `Y1-2_BSIT_Dean.csv`).
+- **Fully Automated Batch Export:** An "Auto-Generator" that automates the creation of CSVs for every possible combination of year, course, and award (48 files total), then bundles them into a single downloadable ZIP file.
 - **Data Verification:** A "Raw Data Inspector" to view the original uploaded CSV for verification.
 
 ## How to Use
